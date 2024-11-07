@@ -43,7 +43,7 @@
     <!-- About -->
     <section class="about" id="about">
         <div class="about-img">
-            <img src="https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395__480.jpg" alt="">
+            <img src="https://cdn.pixabay.com/photo/2017/08/06/06/43/pizza-2589575_1280.jpg" alt="">
         </div>
         <div class="about-text">
             <span>About Us</span>
@@ -97,27 +97,27 @@
     <section class="services" id="services">
         <div class="heading">
             <span>Services</span>
-            <h2>We provide best food services</h2>
+            <h2>We Offer Exceptional Food Services</h2>
         </div>
 
         <div class="servives-container">
             <!-- Box 1 -->
             <div class="s-box">
-                <img src="https://images.pexels.com/photos/280453/pexels-photo-280453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500.png" alt="">
+                <img src="https://img.freepik.com/free-photo/high-angle-hands-holding-pizza_23-2149872392.jpg?t=st=1730972448~exp=1730976048~hmac=6fa49152cbaf397c537227bf3522e559dfbd00ceea4628df4ee35ea54326b6be&w=740" alt="">
                 <h3>You Order</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit ea fugiat esse tempore ipsum temporibus.</p>
+                <p>Bringing fresh flavors and quality right to your doorstep.</p>
             </div>
             <!-- Box 2 -->
             <div class="s-box">
-                <img src="https://images.pexels.com/photos/4391470/pexels-photo-4391470.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500.png" alt="">
+                <img src="https://img.freepik.com/free-photo/close-up-opened-pizza-box-motorcycle_23-2148247850.jpg?t=st=1730973812~exp=1730977412~hmac=8e3bdabc746c39841d126873ad367fb910a64655e2b92062c49cc3f4da0a831b&w=360" alt="">
                 <h3>Shipping</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit ea fugiat esse tempore ipsum temporibus.</p>
+                <p>"Fast, reliable delivery to bring your pizza hot and fresh, right to you.</p>
             </div>
             <!-- Box 3 -->
             <div class="s-box">
-                <img src="https://images.pexels.com/photos/4393426/pexels-photo-4393426.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500.png" alt="">
+                <img src="https://img.freepik.com/free-photo/front-view-female-courier-mask-with-delivery-food-yellow-wall_179666-35029.jpg?t=st=1730973890~exp=1730977490~hmac=118228fa3dd1d3ef1d8a51434f3bef53d6fc0303953513a8a21da06a6db8b3c9&w=740" alt="">
                 <h3>Delivered</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit ea fugiat esse tempore ipsum temporibus.</p>
+                <p>Speedy delivery to satisfy your cravings, bringing your order piping hot and right on time!</p>
             </div>
         </div>
     </section>
@@ -125,17 +125,29 @@
     <!-- Connect -->
     <section class="connect">
         <div class="connect-text">
-            <span>Let's Talk</span>
-            <h2>Connect now</h2>
+            <span id="connectText" onclick="toggleText()">Vaanga pesuvom!</span>
+            <h2>Connect Pizzeria</h2>
         </div>
-        <a href="#" class="btn">Contact Us</a>
+        <a href="#" class="btn">Contact Now</a>
     </section>
+    
+    <script>
+        function toggleText() {
+            const connectText = document.getElementById("connectText");
+            if (connectText.innerText === "Vaanga pesuvom!") {
+                connectText.innerText = "Let's Talk!";
+            } else {
+                connectText.innerText = "Vaanga pesuvom!";
+            }
+        }
+    </script>
+    
 
     <!-- Contact -->
     <section class="contact" id="contact">
         <div class="contact-box">
-            <h3>Pizza Pie</h3>
-            <span>Connect With Us</span>
+            <h3>Pizza's </h3>
+            <span>Connect With Pizzeria</span>
             <div class="social">
                 <a href="#"><i class='bx bxl-facebook' ></i></a>
                 <a href="#"><i class='bx bxl-twitter' ></i></a>
@@ -143,7 +155,7 @@
             </div>
         </div>
         <div class="contact-box">
-            <h3>Menu Links</h3>
+            <h3>Menu </h3>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#menu">Menu</a></li>
@@ -151,7 +163,7 @@
             <li><a href="#contact">Contact</a></li>
         </div>
         <div class="contact-box">
-            <h3>Quick Links</h3>
+            <h3>Quick </h3>
             <li><a href="#Contact">Contact</a></li>
             <li><a href="#Privacy Policy">Privacy Policy</a></li>
             <li><a href="#Disclaimer">Disclaimer</a></li>
@@ -159,15 +171,15 @@
         </div>
         <div class="contact-box address">
             <h3>Contact</h3>
-            <i class='bx bxs-map' ><span>005, Lorem ipsum dolor, sit amet consectetur, India</span></i>
-            <i class='bx bxs-phone' ><span>+91 000 999 5555</span></i>
-            <i class='bx bxs-envelope' ><span>Example@email.com</span></i>
+            <i class='bx bxs-map' ><span>007,Rs Puram,Coimbatore,TamilNadu </span></i>
+            <i class='bx bxs-phone' ><span>+91 9344238543</span></i>
+            <i class='bx bxs-envelope' ><span>vsree7683@email.com</span></i>
         </div>
     </section>
 
     <!-- Copyright -->
     <div class="copyright">
-        <p>© Asslone4 All Right Reserved.</p>
+        <p>©Sreeja7 All Right Reserved.</p>
     </div>
 
 
